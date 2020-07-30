@@ -1,9 +1,10 @@
-<?php include("./setapp/config.php"); ?>
+<?php include("config.php"); ?>
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="/assets/css/style.css">
     <title>Pendaftaran Tamu Baru | Wisuda Ubsi</title>
 </head>
 
@@ -16,7 +17,7 @@
         <a href="form-daftar.php">[+] Tambah Baru</a>
     </nav>
 
-    <table border="1">
+    <table border="2">
         <thead>
             <tr>
                 <th>No</th>
@@ -43,7 +44,7 @@
     
                 echo "<td>";
                 echo "<a href='form-edit.php?id=".$orang['id']."'>Edit</a> | ";
-                echo "<a href='hapus.php?id=".$orang['id']."'>Hapus</a>";
+                echo "<a href='delete.php?id=".$orang['id']."'>Hapus</a>";
                 echo "</td>";
     
                 echo "</tr>";

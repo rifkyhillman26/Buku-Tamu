@@ -1,0 +1,28 @@
+.container{
+    margin: 0;
+    padding: 0;
+}
+
+.judul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+.judul2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.isi {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20%;
+}
+
+.jeda {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
